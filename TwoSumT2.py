@@ -10,7 +10,7 @@ class Solution(object):
                     if nums[i] + nums[j] == 0:
                         return [i, j]
                 else:
-                    if (nums[i] + nums[j]) % target == 0:
+                    if nums[i] + nums[j] == target:
                         return [i, j]
 
                 j += 1
